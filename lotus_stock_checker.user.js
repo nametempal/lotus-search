@@ -17,95 +17,95 @@
         sellerId: 3,
         batchSize: 10,
         regions: [
-            { name: "Bangkok Central", lat: 13.7563, lon: 100.5018, zip: "10100" },
-            { name: "Bangkok North", lat: 13.8621, lon: 100.5144, zip: "10210" },
-            { name: "Bangkok East", lat: 13.7367, lon: 100.6308, zip: "10240" },
-            { name: "Bangkok West", lat: 13.7833, lon: 100.4167, zip: "10160" },
-            { name: "Bangkok South", lat: 13.6833, lon: 100.5167, zip: "10120" },
-            { name: "Bangkok Suvarnabhumi", lat: 13.6811, lon: 100.7470, zip: "10540" },
-            { name: "Nonthaburi", lat: 13.8583, lon: 100.5145, zip: "11000" },
-            { name: "Pathum Thani", lat: 14.0208, lon: 100.5256, zip: "12000" },
-            { name: "Samut Prakan", lat: 13.5990, lon: 100.5998, zip: "10280" },
-            { name: "Samut Sakhon", lat: 13.5475, lon: 100.2745, zip: "74000" },
-            { name: "Nakhon Pathom", lat: 13.8196, lon: 100.0620, zip: "73000" },
-            { name: "Ayutthaya", lat: 14.3692, lon: 100.5877, zip: "13000" },
-            { name: "Saraburi", lat: 14.5289, lon: 100.9108, zip: "18000" },
-            { name: "Ang Thong", lat: 14.5896, lon: 100.4553, zip: "14000" },
-            { name: "Suphan Buri", lat: 14.4744, lon: 100.1177, zip: "72000" },
-            { name: "Sing Buri", lat: 14.8909, lon: 100.4014, zip: "16000" },
-            { name: "Lop Buri", lat: 14.7995, lon: 100.6534, zip: "15000" },
-            { name: "Chai Nat", lat: 15.1853, lon: 100.1253, zip: "17000" },
-            { name: "Nakhon Sawan", lat: 15.6982, lon: 100.1167, zip: "60000" },
-            { name: "Uthai Thani", lat: 15.3835, lon: 100.0255, zip: "61000" },
-            { name: "Kamphaeng Phet", lat: 16.4826, lon: 99.5226, zip: "62000" },
-            { name: "Phichit", lat: 16.4396, lon: 100.3481, zip: "66000" },
-            { name: "Phitsanulok", lat: 16.8211, lon: 100.2659, zip: "65000" },
-            { name: "Phetchabun", lat: 16.4189, lon: 101.1547, zip: "67000" },
-            { name: "Tak", lat: 16.8798, lon: 99.1257, zip: "63000" },
-            { name: "Chiang Mai", lat: 18.7883, lon: 98.9853, zip: "50000" },
-            { name: "Chiang Mai East", lat: 18.7650, lon: 99.0200, zip: "50250" },
-            { name: "Chiang Mai North", lat: 19.0300, lon: 98.9700, zip: "50150" },
-            { name: "Chiang Rai", lat: 19.9105, lon: 99.8406, zip: "57000" },
-            { name: "Lampang", lat: 18.2888, lon: 99.4977, zip: "52000" },
-            { name: "Lamphun", lat: 18.5747, lon: 99.0087, zip: "51000" },
-            { name: "Phrae", lat: 18.1450, lon: 100.1408, zip: "54000" },
-            { name: "Nan", lat: 18.7756, lon: 100.7730, zip: "55000" },
-            { name: "Phayao", lat: 19.1665, lon: 99.9011, zip: "56000" },
-            { name: "Mae Hong Son", lat: 19.3020, lon: 97.9654, zip: "58000" },
-            { name: "Khon Kaen", lat: 16.4322, lon: 102.8236, zip: "40000" },
-            { name: "Khon Kaen East", lat: 16.4500, lon: 102.9000, zip: "40260" },
-            { name: "Udon Thani", lat: 17.4156, lon: 102.7872, zip: "41000" },
-            { name: "Ubon Ratchathani", lat: 15.2448, lon: 104.8473, zip: "34000" },
-            { name: "Nakhon Ratchasima", lat: 14.9799, lon: 102.0978, zip: "30000" },
-            { name: "Nakhon Ratchasima N", lat: 15.1000, lon: 102.1500, zip: "30210" },
-            { name: "Buriram", lat: 14.9931, lon: 103.1029, zip: "31000" },
-            { name: "Surin", lat: 14.8820, lon: 103.4936, zip: "32000" },
-            { name: "Sisaket", lat: 15.1186, lon: 104.3220, zip: "33000" },
-            { name: "Roi Et", lat: 16.0538, lon: 103.6520, zip: "45000" },
-            { name: "Maha Sarakham", lat: 16.1851, lon: 103.2998, zip: "44000" },
-            { name: "Kalasin", lat: 16.4315, lon: 103.5060, zip: "46000" },
-            { name: "Sakon Nakhon", lat: 17.1664, lon: 104.1486, zip: "47000" },
-            { name: "Nakhon Phanom", lat: 17.3922, lon: 104.7696, zip: "48000" },
-            { name: "Mukdahan", lat: 16.5432, lon: 104.7236, zip: "49000" },
-            { name: "Amnat Charoen", lat: 15.8656, lon: 104.6257, zip: "37000" },
-            { name: "Yasothon", lat: 15.7927, lon: 104.1452, zip: "35000" },
-            { name: "Loei", lat: 17.4860, lon: 101.7223, zip: "42000" },
-            { name: "Nong Khai", lat: 17.8782, lon: 102.7418, zip: "43000" },
-            { name: "Nong Bua Lam Phu", lat: 17.2044, lon: 102.4424, zip: "39000" },
-            { name: "Chaiyaphum", lat: 15.8068, lon: 102.0317, zip: "36000" },
-            { name: "Bung Kan", lat: 18.3609, lon: 103.6461, zip: "38000" },
-            { name: "Chonburi", lat: 13.3611, lon: 100.9847, zip: "20000" },
-            { name: "Pattaya", lat: 12.9236, lon: 100.8825, zip: "20150" },
-            { name: "Rayong", lat: 12.6814, lon: 101.2817, zip: "21000" },
-            { name: "Chanthaburi", lat: 12.6111, lon: 102.1039, zip: "22000" },
-            { name: "Trat", lat: 12.2428, lon: 102.5149, zip: "23000" },
-            { name: "Prachinburi", lat: 14.0511, lon: 101.3660, zip: "25000" },
-            { name: "Sa Kaeo", lat: 13.8240, lon: 102.0640, zip: "27000" },
-            { name: "Chachoengsao", lat: 13.6904, lon: 101.0779, zip: "24000" },
-            { name: "Nakhon Nayok", lat: 14.2056, lon: 101.2132, zip: "26000" },
-            { name: "Kanchanaburi", lat: 14.0023, lon: 99.5328, zip: "71000" },
-            { name: "Ratchaburi", lat: 13.5282, lon: 99.8134, zip: "70000" },
-            { name: "Phetchaburi", lat: 13.1119, lon: 99.9399, zip: "76000" },
-            { name: "Prachuap Khiri Khan", lat: 11.8126, lon: 99.7957, zip: "77000" },
-            { name: "Hua Hin", lat: 12.5681, lon: 99.9578, zip: "77110" },
-            { name: "Surat Thani", lat: 9.1382, lon: 99.3217, zip: "84000" },
-            { name: "Surat Thani N", lat: 9.3000, lon: 99.4500, zip: "84100" },
-            { name: "Nakhon Si Thammarat", lat: 8.4322, lon: 99.9633, zip: "80000" },
-            { name: "Nakhon Si T South", lat: 7.9500, lon: 99.8000, zip: "80160" },
-            { name: "Krabi", lat: 8.0863, lon: 98.9063, zip: "81000" },
-            { name: "Phang Nga", lat: 8.4511, lon: 98.5258, zip: "82000" },
-            { name: "Phuket", lat: 7.8804, lon: 98.3923, zip: "83000" },
-            { name: "Phuket South", lat: 7.7500, lon: 98.3600, zip: "83130" },
-            { name: "Trang", lat: 7.5593, lon: 99.6115, zip: "92000" },
-            { name: "Phatthalung", lat: 7.6196, lon: 100.0740, zip: "93000" },
-            { name: "Satun", lat: 6.6238, lon: 100.0674, zip: "91000" },
-            { name: "Songkhla", lat: 7.1756, lon: 100.6142, zip: "90000" },
-            { name: "Hat Yai", lat: 7.0084, lon: 100.4747, zip: "90110" },
-            { name: "Pattani", lat: 6.8650, lon: 101.2503, zip: "94000" },
-            { name: "Yala", lat: 6.5414, lon: 101.2803, zip: "95000" },
-            { name: "Narathiwat", lat: 6.4254, lon: 101.8253, zip: "96000" },
-            { name: "Chumphon", lat: 10.4930, lon: 99.1800, zip: "86000" },
-            { name: "Ranong", lat: 9.9529, lon: 98.6085, zip: "85000" }
+            { name: "Bangkok Central", lat: 13.7563, lon: 100.5018, zip: "10100", group: "Bangkok" },
+            { name: "Bangkok North", lat: 13.8621, lon: 100.5144, zip: "10210", group: "Bangkok" },
+            { name: "Bangkok East", lat: 13.7367, lon: 100.6308, zip: "10240", group: "Bangkok" },
+            { name: "Bangkok West", lat: 13.7833, lon: 100.4167, zip: "10160", group: "Bangkok" },
+            { name: "Bangkok South", lat: 13.6833, lon: 100.5167, zip: "10120", group: "Bangkok" },
+            { name: "Bangkok Suvarnabhumi", lat: 13.6811, lon: 100.7470, zip: "10540", group: "Bangkok" },
+            { name: "Nonthaburi", lat: 13.8583, lon: 100.5145, zip: "11000", group: "Vicinity" },
+            { name: "Pathum Thani", lat: 14.0208, lon: 100.5256, zip: "12000", group: "Vicinity" },
+            { name: "Samut Prakan", lat: 13.5990, lon: 100.5998, zip: "10280", group: "Vicinity" },
+            { name: "Samut Sakhon", lat: 13.5475, lon: 100.2745, zip: "74000", group: "Vicinity" },
+            { name: "Nakhon Pathom", lat: 13.8196, lon: 100.0620, zip: "73000", group: "Vicinity" },
+            { name: "Ayutthaya", lat: 14.3692, lon: 100.5877, zip: "13000", group: "Central" },
+            { name: "Saraburi", lat: 14.5289, lon: 100.9108, zip: "18000", group: "Central" },
+            { name: "Ang Thong", lat: 14.5896, lon: 100.4553, zip: "14000", group: "Central" },
+            { name: "Suphan Buri", lat: 14.4744, lon: 100.1177, zip: "72000", group: "Central" },
+            { name: "Sing Buri", lat: 14.8909, lon: 100.4014, zip: "16000", group: "Central" },
+            { name: "Lop Buri", lat: 14.7995, lon: 100.6534, zip: "15000", group: "Central" },
+            { name: "Chai Nat", lat: 15.1853, lon: 100.1253, zip: "17000", group: "Central" },
+            { name: "Nakhon Sawan", lat: 15.6982, lon: 100.1167, zip: "60000", group: "Central" },
+            { name: "Uthai Thani", lat: 15.3835, lon: 100.0255, zip: "61000", group: "Central" },
+            { name: "Kamphaeng Phet", lat: 16.4826, lon: 99.5226, zip: "62000", group: "Central" },
+            { name: "Phichit", lat: 16.4396, lon: 100.3481, zip: "66000", group: "Central" },
+            { name: "Phitsanulok", lat: 16.8211, lon: 100.2659, zip: "65000", group: "Central" },
+            { name: "Phetchabun", lat: 16.4189, lon: 101.1547, zip: "67000", group: "Central" },
+            { name: "Tak", lat: 16.8798, lon: 99.1257, zip: "63000", group: "North" },
+            { name: "Chiang Mai", lat: 18.7883, lon: 98.9853, zip: "50000", group: "North" },
+            { name: "Chiang Mai East", lat: 18.7650, lon: 99.0200, zip: "50250", group: "North" },
+            { name: "Chiang Mai North", lat: 19.0300, lon: 98.9700, zip: "50150", group: "North" },
+            { name: "Chiang Rai", lat: 19.9105, lon: 99.8406, zip: "57000", group: "North" },
+            { name: "Lampang", lat: 18.2888, lon: 99.4977, zip: "52000", group: "North" },
+            { name: "Lamphun", lat: 18.5747, lon: 99.0087, zip: "51000", group: "North" },
+            { name: "Phrae", lat: 18.1450, lon: 100.1408, zip: "54000", group: "North" },
+            { name: "Nan", lat: 18.7756, lon: 100.7730, zip: "55000", group: "North" },
+            { name: "Phayao", lat: 19.1665, lon: 99.9011, zip: "56000", group: "North" },
+            { name: "Mae Hong Son", lat: 19.3020, lon: 97.9654, zip: "58000", group: "North" },
+            { name: "Khon Kaen", lat: 16.4322, lon: 102.8236, zip: "40000", group: "Northeast" },
+            { name: "Khon Kaen East", lat: 16.4500, lon: 102.9000, zip: "40260", group: "Northeast" },
+            { name: "Udon Thani", lat: 17.4156, lon: 102.7872, zip: "41000", group: "Northeast" },
+            { name: "Ubon Ratchathani", lat: 15.2448, lon: 104.8473, zip: "34000", group: "Northeast" },
+            { name: "Nakhon Ratchasima", lat: 14.9799, lon: 102.0978, zip: "30000", group: "Northeast" },
+            { name: "Nakhon Ratchasima N", lat: 15.1000, lon: 102.1500, zip: "30210", group: "Northeast" },
+            { name: "Buriram", lat: 14.9931, lon: 103.1029, zip: "31000", group: "Northeast" },
+            { name: "Surin", lat: 14.8820, lon: 103.4936, zip: "32000", group: "Northeast" },
+            { name: "Sisaket", lat: 15.1186, lon: 104.3220, zip: "33000", group: "Northeast" },
+            { name: "Roi Et", lat: 16.0538, lon: 103.6520, zip: "45000", group: "Northeast" },
+            { name: "Maha Sarakham", lat: 16.1851, lon: 103.2998, zip: "44000", group: "Northeast" },
+            { name: "Kalasin", lat: 16.4315, lon: 103.5060, zip: "46000", group: "Northeast" },
+            { name: "Sakon Nakhon", lat: 17.1664, lon: 104.1486, zip: "47000", group: "Northeast" },
+            { name: "Nakhon Phanom", lat: 17.3922, lon: 104.7696, zip: "48000", group: "Northeast" },
+            { name: "Mukdahan", lat: 16.5432, lon: 104.7236, zip: "49000", group: "Northeast" },
+            { name: "Amnat Charoen", lat: 15.8656, lon: 104.6257, zip: "37000", group: "Northeast" },
+            { name: "Yasothon", lat: 15.7927, lon: 104.1452, zip: "35000", group: "Northeast" },
+            { name: "Loei", lat: 17.4860, lon: 101.7223, zip: "42000", group: "Northeast" },
+            { name: "Nong Khai", lat: 17.8782, lon: 102.7418, zip: "43000", group: "Northeast" },
+            { name: "Nong Bua Lam Phu", lat: 17.2044, lon: 102.4424, zip: "39000", group: "Northeast" },
+            { name: "Chaiyaphum", lat: 15.8068, lon: 102.0317, zip: "36000", group: "Northeast" },
+            { name: "Bung Kan", lat: 18.3609, lon: 103.6461, zip: "38000", group: "Northeast" },
+            { name: "Chonburi", lat: 13.3611, lon: 100.9847, zip: "20000", group: "East" },
+            { name: "Pattaya", lat: 12.9236, lon: 100.8825, zip: "20150", group: "East" },
+            { name: "Rayong", lat: 12.6814, lon: 101.2817, zip: "21000", group: "East" },
+            { name: "Chanthaburi", lat: 12.6111, lon: 102.1039, zip: "22000", group: "East" },
+            { name: "Trat", lat: 12.2428, lon: 102.5149, zip: "23000", group: "East" },
+            { name: "Prachinburi", lat: 14.0511, lon: 101.3660, zip: "25000", group: "East" },
+            { name: "Sa Kaeo", lat: 13.8240, lon: 102.0640, zip: "27000", group: "East" },
+            { name: "Chachoengsao", lat: 13.6904, lon: 101.0779, zip: "24000", group: "East" },
+            { name: "Nakhon Nayok", lat: 14.2056, lon: 101.2132, zip: "26000", group: "East" },
+            { name: "Kanchanaburi", lat: 14.0023, lon: 99.5328, zip: "71000", group: "West" },
+            { name: "Ratchaburi", lat: 13.5282, lon: 99.8134, zip: "70000", group: "West" },
+            { name: "Phetchaburi", lat: 13.1119, lon: 99.9399, zip: "76000", group: "West" },
+            { name: "Prachuap Khiri Khan", lat: 11.8126, lon: 99.7957, zip: "77000", group: "West" },
+            { name: "Hua Hin", lat: 12.5681, lon: 99.9578, zip: "77110", group: "West" },
+            { name: "Surat Thani", lat: 9.1382, lon: 99.3217, zip: "84000", group: "South" },
+            { name: "Surat Thani N", lat: 9.3000, lon: 99.4500, zip: "84100", group: "South" },
+            { name: "Nakhon Si Thammarat", lat: 8.4322, lon: 99.9633, zip: "80000", group: "South" },
+            { name: "Nakhon Si T South", lat: 7.9500, lon: 99.8000, zip: "80160", group: "South" },
+            { name: "Krabi", lat: 8.0863, lon: 98.9063, zip: "81000", group: "South" },
+            { name: "Phang Nga", lat: 8.4511, lon: 98.5258, zip: "82000", group: "South" },
+            { name: "Phuket", lat: 7.8804, lon: 98.3923, zip: "83000", group: "South" },
+            { name: "Phuket South", lat: 7.7500, lon: 98.3600, zip: "83130", group: "South" },
+            { name: "Trang", lat: 7.5593, lon: 99.6115, zip: "92000", group: "South" },
+            { name: "Phatthalung", lat: 7.6196, lon: 100.0740, zip: "93000", group: "South" },
+            { name: "Satun", lat: 6.6238, lon: 100.0674, zip: "91000", group: "South" },
+            { name: "Songkhla", lat: 7.1756, lon: 100.6142, zip: "90000", group: "South" },
+            { name: "Hat Yai", lat: 7.0084, lon: 100.4747, zip: "90110", group: "South" },
+            { name: "Pattani", lat: 6.8650, lon: 101.2503, zip: "94000", group: "South" },
+            { name: "Yala", lat: 6.5414, lon: 101.2803, zip: "95000", group: "South" },
+            { name: "Narathiwat", lat: 6.4254, lon: 101.8253, zip: "96000", group: "South" },
+            { name: "Chumphon", lat: 10.4930, lon: 99.1800, zip: "86000", group: "South" },
+            { name: "Ranong", lat: 9.9529, lon: 98.6085, zip: "85000", group: "South" }
         ]
     };
 
@@ -146,31 +146,38 @@
         }
     }
 
-    async function getAllStores() {
+    async function getAllStores(groupFilter) {
         const cached = sessionStorage.getItem('lotus_stores_v3');
+        let allStores = [];
         if (cached) {
-            try { return JSON.parse(cached); } catch (e) { }
+            try { allStores = JSON.parse(cached); } catch (e) { }
         }
 
-        const allStoresMap = new Map();
-        const promises = CONFIG.regions.map(function (r) { return fetchStoresForRegion(r); });
-        const results = await Promise.all(promises);
+        if (allStores.length === 0) {
+            const allStoresMap = new Map();
+            const promises = CONFIG.regions.map(function (r) { return fetchStoresForRegion(r); });
+            const results = await Promise.all(promises);
 
-        results.forEach(function (regionStores) {
-            regionStores.forEach(function (store) {
-                if (store && store.store_id) {
-                    allStoresMap.set(store.store_id, {
-                        id: store.store_id,
-                        name: store.name_th || store.name_en || ('Store ' + store.store_id),
-                        type: store.subStoreType || 'Unknown'
-                    });
-                }
+            results.forEach(function (regionStores, idx) {
+                const region = CONFIG.regions[idx];
+                regionStores.forEach(function (store) {
+                    if (store && store.store_id) {
+                        allStoresMap.set(store.store_id, {
+                            id: store.store_id,
+                            name: store.name_th || store.name_en || ('Store ' + store.store_id),
+                            type: store.subStoreType || 'Unknown',
+                            group: region.group
+                        });
+                    }
+                });
             });
-        });
 
-        const uniqueStores = Array.from(allStoresMap.values());
-        sessionStorage.setItem('lotus_stores_v3', JSON.stringify(uniqueStores));
-        return uniqueStores;
+            allStores = Array.from(allStoresMap.values());
+            sessionStorage.setItem('lotus_stores_v3', JSON.stringify(allStores));
+        }
+
+        if (!groupFilter || groupFilter === 'All') return allStores;
+        return allStores.filter(function(s) { return s.group === groupFilter; });
     }
 
     async function checkStock(slug, storeId, signal) {
@@ -260,7 +267,21 @@
             panel.innerHTML = '<div id="lsc-header"><span>Lotus Stock Checker</span><button id="lsc-close">&times;</button></div>'
                 + '<div id="lsc-body">'
                 + '<div id="lsc-product-name" style="font-size:14px;font-weight:bold;margin-bottom:5px;"></div>'
-                + '<div id="lsc-controls"><span id="lsc-status">Initializing...</span><label><input type="checkbox" id="lsc-filter"> In Stock Only</label></div>'
+                + '<div id="lsc-controls">'
+                + '  <select id="lsc-region-select" style="font-size:12px;padding:2px;">'
+                + '    <option value="All">All Regions</option>'
+                + '    <option value="Bangkok">Bangkok</option>'
+                + '    <option value="Vicinity">Vicinity</option>'
+                + '    <option value="North">North</option>'
+                + '    <option value="Northeast">Northeast</option>'
+                + '    <option value="Central">Central</option>'
+                + '    <option value="East">East</option>'
+                + '    <option value="West">West</option>'
+                + '    <option value="South">South</option>'
+                + '  </select>'
+                + '  <label><input type="checkbox" id="lsc-filter"> In Stock Only</label>'
+                + '</div>'
+                + '<div id="lsc-status" style="font-size:12px;margin-bottom:5px;">Initializing...</div>'
                 + '<div id="lsc-progress-container"><div id="lsc-progress-bar"></div></div>'
                 + '<div id="lsc-table-container"><table id="lsc-table"><thead><tr>'
                 + '<th data-sort="name">Branch &#8597;</th>'
@@ -277,6 +298,7 @@
                 progressBar: document.getElementById('lsc-progress-bar'),
                 tbody: document.getElementById('lsc-tbody'),
                 filter: document.getElementById('lsc-filter'),
+                regionSelect: document.getElementById('lsc-region-select'),
                 close: document.getElementById('lsc-close'),
                 headers: document.querySelectorAll('#lsc-table th')
             };
@@ -402,7 +424,8 @@
         showPanel();
 
         try {
-            state.stores = await getAllStores();
+            const selectedRegion = uiElements.regionSelect ? uiElements.regionSelect.value : 'All';
+            state.stores = await getAllStores(selectedRegion);
             if (state.stores.length === 0) {
                 uiElements.status.textContent = 'Error: No stores found.';
                 state.isChecking = false;
