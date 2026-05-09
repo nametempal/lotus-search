@@ -1,64 +1,26 @@
-# Lotus Search — Agent Instructions
+# Lotus Multi-Branch Stock Checker
 
-## ROLE
+สคริปต์สำหรับ Tampermonkey เพื่อช่วยตรวจสอบสต็อกสินค้าของ Lotus's ในแต่ละสาขาแบบอัตโนมัติ โดยไม่ต้องกดค้นหาทีละสาขา
 
-You are an autonomous browser automation agent.
+## ✨ คุณสมบัติ (Features)
+- 🛒 **ค้นหาครอบคลุมทุกสาขา**: ตรวจสอบสต็อกทั่วประเทศหรือเลือกเฉพาะภาคที่ต้องการ (กรุงเทพฯ, ภาคกลาง, ภาคเหนือ, ฯลฯ)
+- 📦 **แสดงจำนวนและสถานะ**: ดูจำนวนสินค้าคงเหลือและสถานะการรับสินค้าที่สาขา (Pickup)
+- ⚡ **รวดเร็วและประหยัด API**: โหลดข้อมูลเฉพาะภูมิภาคที่เลือก
+- 📊 **จัดเรียงข้อมูลได้**: คลิกที่หัวตารางเพื่อเรียงตามชื่อสาขา, จำนวนสต็อก หรือสถานะ
+- 🎯 **คัดกรองง่าย**: มีปุ่มติ๊กเลือกดูเฉพาะ "สาขาที่มีสินค้าเท่านั้น"
 
-## GOAL
+## 🛠️ การติดตั้ง (Installation)
+1. ติดตั้งส่วนขยาย **Tampermonkey** ในเบราว์เซอร์ของคุณ (รองรับ Chrome, Firefox, Edge, Safari)
+2. ติดตั้งสคริปต์โดยเข้าไปที่แท็บตั้งค่าของ Tampermonkey แล้วคัดลอกโค้ดจากไฟล์ `lotus_stock_checker.user.js` ไปวางเป็นสคริปต์ใหม่
+3. หรือติดตั้งโดยตรงผ่าน URL ของ raw file บน GitHub
 
-Build a Tampermonkey userscript that checks product stock across all Lotus's branches.
+## 📖 วิธีใช้งาน (Usage)
+1. เปิดหน้าเว็บไซต์ [Lotus's Online](https://www.lotuss.com) **และคลิกเลือกสินค้าที่ต้องการตรวจสอบก่อน** (ต้องอยู่ในหน้ารายละเอียดสินค้า)
+2. รอโหลดหน้าเว็บสักครู่ จะมีปุ่ม **"🛒 ตรวจสต็อกสาขา"** ปรากฏขึ้นที่มุมขวาล่างของหน้าจอ
+3. คลิกปุ่มเพื่อเปิดหน้าต่างตรวจสอบสต็อก
+4. เลือกภาค/กลุ่มสาขาที่ต้องการตรวจสอบในช่อง **"ภาค"**
+5. ระบบจะค้นหาและแสดงผลสถานะสินค้าในแต่ละสาขาของภาคนั้นให้ทันที
 
-## CAPABILITIES
-
-* Inspect browser network requests
-* Reverse engineer APIs
-* Execute browser actions
-* Write and test scripts automatically
-
-## WORKFLOW
-
-### Step 1 — Discover APIs
-
-* Open Lotus's Online
-* Search any product
-* Open DevTools → Network → Fetch/XHR
-* Detect requests related to:
-
-  * stock
-  * availability
-  * fulfillment
-  * pickup
-
-Extract:
-storeId, branchId, locationId, productId, sku
-
-### Step 2 — Validate API
-
-* Replay request
-* Change branchId
-* Confirm stock response changes
-
-### Step 3 — Automation
-
-Create Tampermonkey script that:
-
-* detects productId automatically
-* loops all branches
-* sends async requests
-* aggregates results
-
-### Step 4 — UI
-
-Render floating table:
-Branch | Stock | Pickup Available
-
-## CONSTRAINTS
-
-* No backend server
-* Use existing session cookies
-* Minimal DOM modification
-* Parallel requests only
-
-## SUCCESS CONDITION
-
-Agent can click one button and view stock across all branches.
+## 📝 หมายเหตุ
+- สคริปต์นี้ดึงข้อมูลจาก API ของเว็บ Lotus's โดยตรง (ใช้ session ปัจจุบันของคุณ)
+- เวอร์ชันปัจจุบันคือ 1.4 รองรับการแบ่งกลุ่มสาขาและแสดงผลเป็นภาษาไทย
